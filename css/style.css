@@ -1,0 +1,247 @@
+header{
+    height: 200px;
+    background-color: lightslategray;
+    
+}
+.bgvideo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bgvideo video{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+}
+h1{
+font-size: 7vw;
+z-index: 2;
+color: cyan;
+}
+aside{
+    width: 20%;
+    background-color: antiquewhite;
+    float: left;
+   
+}
+main{
+    width: 60%;
+    background-color: rgb(148, 231, 227);
+    float: left;
+   
+}
+nav{
+    width: 20%;
+    background-color: antiquewhite;
+    float: left;
+    
+}
+
+footer{
+   
+    height: 150px;
+    clear: both;
+    background-color: gray;
+}
+.fc{
+
+  margin: auto;
+  display: block;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    
+}
+p{
+  font-size: 2vw;
+  margin: 20px;
+}
+@media only screen and (max-width:620px){
+  nav,main,aside{
+    width: 100%;
+  }
+}
+
+/*social media*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+ 
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-twitch {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+  /*кнопки*/
+  .myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color:#8551af;
+  border-radius:10px;
+  border:1px solid #a853b5;
+  display: block;
+  margin: 20px;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:32px;
+  padding:12px 50px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+  
+  
+
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #476e9e 5%, #b833c7 100%);
+  background-color:#b268e7;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+ /* Style all font awesome icons */
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+
